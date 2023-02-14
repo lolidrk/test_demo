@@ -8,6 +8,6 @@ int main(void) {
   cout << "I have successfully built and run\n";
   cout << "Idk how many times I have done this now";
   cout << "I will actually cry now";
-  coutj << "I'm not lying";
+  
   return 0;
 }
