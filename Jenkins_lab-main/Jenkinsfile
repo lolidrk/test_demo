@@ -6,6 +6,8 @@ pipeline {
          stage('com'){
             steps{ script {
             def mvnHome = tool name: 'M3', type: 'maven'
+            def pomfilepath= C:\Users\kalya\test\Jenkins_lab-main\pom.xml
+
             sh "${mvnHome}/bin/mvn -B -DskipTests clean package"
             }}} 
         stage('Maven Install'){
