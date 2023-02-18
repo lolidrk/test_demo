@@ -6,8 +6,6 @@ pipeline {
             steps {
                 echo 'Starting Build'
                 sh 'ls'
-                sh 'cd Jenkins_lab-main'
-                sh 'ls'
                 sh 'make -C main'
                 echo 'Build Completed'
             }
